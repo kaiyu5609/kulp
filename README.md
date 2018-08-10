@@ -1,9 +1,9 @@
-# kulp
+# kulper
 
 
 ## 简介
 
-`kulp` A JavaScript Core Library
+`kulper` A JavaScript Core Library
 - 官网：`--`
 - 文档：`--`
 - 源码：`--`
@@ -12,7 +12,7 @@
 
 ## 安装下载
 
-- 使用`npm`下载：`npm install kulp`
+- 使用`npm`下载：`npm install kulper`
 - 直接下载：`(git releases 地址)`
 - 使用`CDN`：`(npm CDN 地址)`
 
@@ -23,7 +23,7 @@
 
 ## 本地运行demo
 - 确定本机安装了`nodejs`，可使用`node -v`验证
-- 下载源码，解压，或者`git clone https://github.com/kaiyu5609/kulp.git`
+- 下载源码，解压，或者`git clone https://github.com/kaiyu5609/kulper.git`
 - 进入源码目录，找到`gulpfile.js`命令行中运行`gulp serve`
 - 打开浏览器访问 `http://localhost:5000/example/index.html`
 

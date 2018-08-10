@@ -24,21 +24,21 @@ gulp.task('jshint', () => {
 gulp.task('browserify', () => {
 	return browserify({
 		entries: ['./src/index.js'],
-		standalone: 'kulp',
+		standalone: 'kulper',
 		debug: true
 	})
 	.transform('babelify', {
 		presets: ['es2015']
 	})
 	.bundle()
-	.pipe(source('kulp.js'))
+	.pipe(source('kulper.js'))
 	.pipe(buffer())
 	.pipe(sourcemaps.init({
 		loadMaps: true
 	}))
 	.pipe(gulp.dest('./release/'))
 	.pipe(uglify())
-	.pipe(rename('kulp.min.js'))
+	.pipe(rename('kulper.min.js'))
 	.pipe(sourcemaps.write('./'))
 	.pipe(gulp.dest('./release/'));
 });

@@ -1,6 +1,6 @@
 {
-  "name": "kulp",
-  "version": "0.0.1",
+  "name": "kulper",
+  "version": "0.0.2",
   "description": "A JavaScript Core Library",
   "main": "src/index.js",
   "scripts": {
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaiyu5609/kulp.git"
+    "url": "git+https://github.com/kaiyu5609/kulper.git"
   },
   "keywords": [
-    "kulp"
+    "kulper"
   ],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kaiyu5609/kulp/issues"
+    "url": "https://github.com/kaiyu5609/kulper/issues"
   },
-  "homepage": "https://github.com/kaiyu5609/kulp#readme",
+  "homepage": "https://github.com/kaiyu5609/kulper#readme",
   "devDependencies": {
     "babelify": "^8.0.0",
     "browserify": "^16.2.2",
