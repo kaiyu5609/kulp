@@ -1,0 +1,43 @@
+{
+  "name": "kulp",
+  "version": "0.0.1",
+  "description": "A JavaScript Core Library",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiyu5609/kulp.git"
+  },
+  "keywords": [
+    "kulp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaiyu5609/kulp/issues"
+  },
+  "homepage": "https://github.com/kaiyu5609/kulp#readme",
+  "devDependencies": {
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.2",
+    "browserify-shim": "^3.8.14",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-mocha": "^6.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "jquery": "^3.3.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {}
+}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>kulp</title>
+	<style media="screen">
+		.wrapper {
+			height: 200px;
+			background: #efefef;
+		}
+	</style>
+</head>
+<body>
+
+    <div id="main" class="wrapper"></div>
+
+	<script type="text/javascript" src="../bower_components/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="../release/kulp.js"></script>
+	<script type="text/javascript">
+		console.log(kulp);
+
+        var emitter = new kulp.EventEmitter();
+        emitter.on('mousedown', function() {
+            console.log('mousedown');
+        });
+
+        setTimeout(function() {
+            emitter.fire('mousedown');
+        }, 1000);
+
+
+
+	</script>
+</body>
+</html>
