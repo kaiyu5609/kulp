@@ -1,6 +1,6 @@
 {
   "name": "kulper",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A JavaScript Core Library",
   "main": "src/index.js",
   "scripts": {
@@ -39,5 +39,7 @@
       "browserify-shim"
     ]
   },
-  "browserify-shim": {}
+  "browserify-shim": {
+    "jquery": "global:$"
+  }
 }
